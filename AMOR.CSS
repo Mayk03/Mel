@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #0603dbdc;
+    color: #f6f6f6;
+    height: 100vh;  
+    box-sizing: border-box;
+}
+
+.enfatizando-titulo{
+    color: #f6f6f6;
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
+    margin: 7%;
+}
+.Presentacion_contenido{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Tamaño-de-Titulo{
+    font-size: 50px;
+    font-family: "Krona One", sans-serif
+}
+
+.Tamaño-del-parrafo{
+    font-size: 45px;
+    font-family: "Montserrat", sans-serif;
+}
